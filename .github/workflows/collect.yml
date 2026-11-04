@@ -2,8 +2,9 @@ name: Collect news
 
 on:
   schedule:
-    - cron: "0 * * * *"   # every hour, on the hour (UTC)
-  workflow_dispatch:       # adds a manual "Run workflow" button
+    # GitHub Actions cron uses UTC. Runs hourly; minute 17 avoids the busiest top-of-hour window.
+    - cron: "17 * * * *"
+  workflow_dispatch:
 
 permissions:
   contents: read
@@ -24,10 +25,13 @@ jobs:
           python-version: "3.12"
           cache: pip
 
-      - run: pip install -r requirements.txt
+      - name: Install dependencies
+        run: pip install -r requirements.txt
 
-      - run: python collect.py
+      - name: Collect RSS articles
+        run: python collect.py
         env:
           PYTHONUNBUFFERED: "1"
           GOOGLE_CREDENTIALS: ${{ secrets.GOOGLE_CREDENTIALS }}
           SHEET_ID: ${{ secrets.SHEET_ID }}
+          SHEET_TAB: ${{ vars.SHEET_TAB }}
