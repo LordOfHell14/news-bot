@@ -1,0 +1,4 @@
+feedparser
+gspread
+google-auth
+requests
