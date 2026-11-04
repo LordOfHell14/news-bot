@@ -1,4 +1,4 @@
-feedparser
-gspread
-google-auth
-requests
+feedparser>=6.0.11,<7
+gspread>=6.1,<7
+google-auth>=2.30,<3
+requests>=2.32,<3
