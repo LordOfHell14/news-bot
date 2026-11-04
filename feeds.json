@@ -1,0 +1,24 @@
+[
+  {"name": "PC Gamer", "url": "https://www.pcgamer.com/rss/", "category": "Gaming"},
+  {"name": "IGN", "url": "https://www.ign.com/rss/v2/articles/feed", "category": "Gaming"},
+  {"name": "GameSpot", "url": "https://www.gamespot.com/feeds/mashup/", "category": "Gaming"},
+  {"name": "Kotaku", "url": "https://kotaku.com/rss", "category": "Gaming"},
+  {"name": "Polygon", "url": "https://www.polygon.com/rss/index.xml", "category": "Gaming"},
+  {"name": "Eurogamer", "url": "https://www.eurogamer.net/feed", "category": "Gaming"},
+  {"name": "Rock Paper Shotgun", "url": "https://www.rockpapershotgun.com/feed", "category": "Gaming"},
+  {"name": "VGC", "url": "https://www.videogameschronicle.com/feed/", "category": "Gaming"},
+  {"name": "Gematsu", "url": "https://www.gematsu.com/feed", "category": "Gaming"},
+  {"name": "GamesRadar+", "url": "https://www.gamesradar.com/feeds.xml", "category": "Gaming"},
+
+  {"name": "Rolling Stone India", "url": "https://rollingstoneindia.com/feed/", "category": "Music"},
+  {"name": "HighOnScore", "url": "https://highonscore.com/feed", "category": "Music"},
+  {"name": "indianmi.org", "url": "https://indianmi.org/feed", "category": "Music"},
+  {"name": "MusicPlus", "url": "https://www.musicplus.in/feed/", "category": "Music"},
+  {"name": "Wild City", "url": "https://wildcity.com/feed/", "category": "Music"},
+
+  {"name": "Bollywood Hungama", "url": "https://www.bollywoodhungama.com/rss/news.xml", "category": "Music", "filter": "music"},
+  {"name": "FilmiBeat", "url": "https://www.filmibeat.com/rss/filmibeat-fb.xml", "category": "Music", "filter": "music"},
+  {"name": "Indian Express Entertainment", "url": "https://indianexpress.com/entertainment/feed/", "category": "Music", "filter": "music"},
+  {"name": "Times of India Entertainment", "url": "https://timesofindia.indiatimes.com/rssfeeds/1081479906.cms", "category": "Music", "filter": "music"},
+  {"name": "Hindustan Times Entertainment", "url": "https://feeds.hindustantimes.com/HT-Entertainment", "category": "Music", "filter": "music"}
+]
